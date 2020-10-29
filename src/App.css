@@ -1,5 +1,27 @@
+html {
+  width: 100%;
+  height: 100vh;
+}
+:root {
+  --primary-color: #6610f2;
+  --primary-color-light: #664cec;
+  --primary-color-dark: #510bc4;
+  --color-yellow: #f3c000;
+  --color-yellow-light: #ffd227;
+  --color-grey-light-1: #f7fafc;
+  --color-grey-light-3: #cbd5e0;
+  --color-grey-light-2: #e2e8f0;
+  --color-white: #f7fafc;
+  --color-grey-dark: #4a5568;
+  --color-grey-dark-2: #a0aec0;
+  --color-grey-dark-3: #1a202c;
+  --color-danger: #e53e3e;
+  --linear-background: linear-gradient(to bottom, #664cec, #510bc4);
+}
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -12,7 +34,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.fa-9em {
+  font-size: 0.9rem;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,5 +58,13 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
   }
 }

@@ -1,0 +1,18 @@
+.webFooterView {
+    footer {
+        .footer__icons {
+            display: flex;
+
+            .footer__icons__link{
+                cursor: pointer;
+                margin-left: 1.4rem;
+                text-decoration: none;
+                color:whitesmoke;
+                transition: all 0.2s ease 0s;
+                &:hover{
+                color: #5ea7f5;
+                }
+            }
+        }
+    }
+}

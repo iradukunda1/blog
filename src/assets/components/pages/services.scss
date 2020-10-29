@@ -1,0 +1,35 @@
+.service-components {
+    .section-services {
+        background-color: #f7fafc;
+        padding: 12rem 15rem;
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+            gap: 5rem;
+
+            .service {
+                text-align: center;
+                display: grid;
+                row-gap: 1rem;
+
+                .service-icon {
+                    display: inline-block;
+                    font-size: 5rem;
+                    color: #664cec;
+                }
+
+                .service-title {
+                    color: #664cec;
+                    font-weight: 500;
+                    letter-spacing: .05em;
+                    font-size: 1rem;
+                }
+
+                .service-content {
+                    font-size: .9em;
+                }
+            }
+        }
+    }
+}
